@@ -1,0 +1,23 @@
+<div class="main">
+  <aside>
+    <img [src]="imagemLateralUrl" alt="imagem lateral">
+  </aside>
+    <main>
+      <div class="informacoes">
+        <span>{{ nome }}</span>
+        <span class="saldo">{{ saldo }}</span>
+      </div>
+      <div class="formulario">
+        <form (submit)="$event.preventDefault()">
+          <mat-form-field>
+            <mat-label>Informe um valor</mat-label>
+            <input [(ngModel)]="form.valor" name="valor" matInput>
+          </mat-form-field>
+          <div class="acoes">
+            <button mat-raised-button color="primary" (click)="realizarSaque()">Sacar</button>
+            <button mat-raised-button color="primary" (click)="realizarDeposito()">Depositar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+</div>

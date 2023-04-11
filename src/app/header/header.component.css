@@ -1,0 +1,25 @@
+header {
+  background-color: #1A75E0;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div {
+  margin-right: 50px;
+}
+
+header div button {
+  border-radius: 50%;
+  background-color: #ffff;
+  border-style: none;
+}
+
+header div button:first-child {
+  margin-right: 20px;
+}
+
+header div button img {
+  width: 40px;
+}
