@@ -8,7 +8,7 @@ Execute `ng build` para compilar o projeto. Os artefatos de compilação deverã
 
 ## Informações sobre implementação
 
-Durante o desenvolvimento da solução foi utilizada a arquitetura definida por padrão pelo angular cli, com uma diferença na criação de uma pasta services para agrupar os serviços necessários e utilização da biblioteca de conponentes Angular Material.
+Durante o desenvolvimento da solução foi utilizada a arquitetura definida por padrão pelo angular cli, com uma diferença na criação de uma pasta services para agrupar os serviços necessários e utilização da biblioteca de componentes Angular Material.
 
 As complicações encontradas em sua maioria são resultado da pouca familiaridade com o framework e sua sintaxe.
 
